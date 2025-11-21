@@ -1,5 +1,6 @@
 🏆 My Favorite Teams Dashboard
 
+
 My Favorite Teams Dashboard est une interface sportive moderne et responsive présentant mes cinq équipes professionnelles préférées à travers un design propre, dynamique et inspiré des plateformes sportives comme ESPN, NBA, NFL, et NHL.
 
 Ce dashboard met de l’avant les informations essentielles des équipes :
@@ -14,6 +15,7 @@ Ce dashboard met de l’avant les informations essentielles des équipes :
 
 🇵🇹 Portugal National Team (UEFA)
 
+
 Chaque carte d’équipe présente :
 
 🎨 Les couleurs officielles
@@ -25,6 +27,8 @@ Chaque carte d’équipe présente :
 🏆 Les principaux trophées
 
 🖼️ Le logo officiel en haute qualité
+
+
 
 🚀 Fonctionnalités
 ✔️ Design Sport Pro
@@ -50,6 +54,8 @@ Les cartes se soulèvent au survol pour un rendu dynamique et élégant.
 
 Chaque équipe possède son logo officiel en haute résolution.
 
+
+
 📁 Structure du projet
 my-favorite-teams-dashboard/
 │
@@ -58,6 +64,8 @@ my-favorite-teams-dashboard/
 ├── script.js        # Génération dynamique des cartes
 │
 └── assets/          # Logos officiels HD
+
+
 
 🎨 Technologies utilisées
 
@@ -71,10 +79,14 @@ Google Fonts (Bebas Neue, Roboto)
 
 GitHub Pages (déploiement gratuit)
 
+
+
 🌐 Démo en ligne
 
 ➡️ Lien GitHub Pages :
 (Disponible dans la section GitHub Pages du repo)
+
+
 
 🔮 Évolutions futures
 
@@ -89,6 +101,8 @@ Voici les fonctionnalités prévues prochainement :
 🌗 Mode sombre / clair avec switch
 
 🔎 Filtrage par sport ou équipe
+
+
 
 🧑‍💻 Auteur
 
