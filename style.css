@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 30px 10px;
+}
+
+#teams-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.team-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.team-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.team-league {
+    font-size: 15px;
+    color: gray;
+}
+
+.team-section-title {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.color-box {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+}
