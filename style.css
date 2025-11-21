@@ -1,64 +1,102 @@
+/* POLICE */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background: #f4f4f4;
-    color: #333;
-}
-
-header {
-    text-align: center;
-    background: #222;
+    background: #0f0f0f;
+    font-family: 'Roboto', sans-serif;
     color: white;
-    padding: 30px 10px;
 }
 
-#teams-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    padding: 30px;
-}
-
-.team-card {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+/* HEADER */
+.main-header {
     text-align: center;
-    transition: transform 0.2s ease;
+    padding: 40px 20px;
+    background: linear-gradient(90deg, #111, #1a1a1a);
+    border-bottom: 2px solid #333;
+}
+
+.main-header h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/* GRID LAYOUT */
+.grid-container {
+    display: grid;
+    gap: 30px;
+    padding: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* TEAM CARD */
+.team-card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 18px;
+    border: 1px solid #2b2b2b;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
 }
 
 .team-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-8px);
+    border-color: #e50914;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.5);
 }
 
+/* LOGO */
 .team-logo {
     width: 120px;
     height: auto;
-    margin-bottom: 15px;
+    display: block;
+    margin: 0 auto 20px auto;
 }
 
+/* TITRE ÉQUIPE */
 .team-name {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+    margin-bottom: 10px;
 }
 
+/* LIGUE */
 .team-league {
-    font-size: 15px;
-    color: gray;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 20px;
 }
 
-.team-section-title {
-    margin-top: 15px;
+/* SECTIONS */
+.section-title {
+    margin-top: 20px;
     font-weight: bold;
+    font-size: 14px;
+    color: #e50914;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
+/* COULEURS */
 .color-box {
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
     display: inline-block;
-    border-radius: 5px;
-    margin-right: 8px;
-    border: 1px solid #ccc;
+    margin-right: 6px;
+    border: 1px solid #444;
+}
+
+/* TEXTE */
+.team-info-text {
+    margin: 5px 0 12px 0;
+    font-size: 16px;
 }
